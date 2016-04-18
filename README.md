@@ -43,22 +43,41 @@ This script will only look at the following
         train/y_train.txt
 
 Reads the testing files and creates corresponding testing data tables
+
 Reads the training files and creates corresponding training data tables
+
 The script then concatenates tables by row
+
 The script sets the names with variables
+
 Moves the subject and activity data into a single file
+
 combined_data_set <- cbind(data_subject, data_activity)
+
 	1. Merges the training and the test sets to create one data set.
+	
     	Binds the features, subject and the activity into a one large set
-    2.  Extracts only the measurements on the mean and standard deviation for each measurement.
+    	
+	2.  Extracts only the measurements on the mean and standard deviation for each measurement.
+    
 	3. Uses descriptive activity names to name the activities in the data set
+	
 		Subsets the data based on the selected names
+		
 	4. Appropriately labels the data set with descriptive variable names.
+	
 		Changes the single character identifcation [^denote the first character in a title]
+		
 		Changing abbreviations to proper names
+		
 		Eliminating the redundant "body" in the variable name
+		
  	5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for  
     	each activity and each subject.
+    	
 		Aggregate based on subject and activity and apply mean function
+		
 		Set the order in the tidy data set
+		
 		Create a new text file from the tidy data set
+		
