@@ -1,4 +1,4 @@
-<font size="6">Information about the variables </font> 
+Information about the variables 
 
 features.txt, A complete list of the variables as found in the original data set
 
