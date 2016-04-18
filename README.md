@@ -35,12 +35,12 @@ This script will only look at the following
 
         activity_labels.txt
         features.txt
-        test/subject_test.txt
-        test/X_test.txt
-        test/y_test.txt
-        train/subject_train.txt
-        train/X_train.txt
-        train/y_train.txt
+        subject_test.txt
+        X_test.txt
+        y_test.txt
+        subject_train.txt
+        X_train.txt
+        y_train.txt
 
 Reads the testing files and creates corresponding testing data tables
 
