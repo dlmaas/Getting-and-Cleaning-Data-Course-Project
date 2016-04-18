@@ -52,8 +52,6 @@ The script sets the names with variables
 
 Moves the subject and activity data into a single file
 
-combined_data_set <- cbind(data_subject, data_activity)
-
 	1. Merges the training and the test sets to create one data set.
 	
     	Binds the features, subject and the activity into a one large set
